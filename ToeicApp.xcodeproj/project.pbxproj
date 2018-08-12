@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		846C61FC21204FC000EC6212 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846C61FB21204FC000EC6212 /* AppDelegate.swift */; };
+		846C61FE21204FC000EC6212 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846C61FD21204FC000EC6212 /* ViewController.swift */; };
+		846C620121204FC000EC6212 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846C61FF21204FC000EC6212 /* Main.storyboard */; };
+		846C620321204FC000EC6212 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846C620221204FC000EC6212 /* Assets.xcassets */; };
+		846C620621204FC000EC6212 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846C620421204FC000EC6212 /* LaunchScreen.storyboard */; };
+		846C621121204FC100EC6212 /* ToeicAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846C621021204FC100EC6212 /* ToeicAppTests.swift */; };
+		846C621C21204FC100EC6212 /* ToeicAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846C621B21204FC100EC6212 /* ToeicAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		846C620D21204FC100EC6212 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 846C61F021204FC000EC6212 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846C61F721204FC000EC6212;
+			remoteInfo = ToeicApp;
+		};
+		846C621821204FC100EC6212 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 846C61F021204FC000EC6212 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846C61F721204FC000EC6212;
+			remoteInfo = ToeicApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		846C61F821204FC000EC6212 /* ToeicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToeicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		846C61FB21204FC000EC6212 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		846C61FD21204FC000EC6212 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		846C620021204FC000EC6212 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		846C620221204FC000EC6212 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		846C620521204FC000EC6212 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		846C620721204FC000EC6212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846C620C21204FC100EC6212 /* ToeicAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToeicAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		846C621021204FC100EC6212 /* ToeicAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToeicAppTests.swift; sourceTree = "<group>"; };
+		846C621221204FC100EC6212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846C621721204FC100EC6212 /* ToeicAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToeicAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		846C621B21204FC100EC6212 /* ToeicAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToeicAppUITests.swift; sourceTree = "<group>"; };
+		846C621D21204FC100EC6212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		846C61F521204FC000EC6212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846C620921204FC100EC6212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846C621421204FC100EC6212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		846C61EF21204FC000EC6212 = {
+			isa = PBXGroup;
+			children = (
+				846C61FA21204FC000EC6212 /* ToeicApp */,
+				846C620F21204FC100EC6212 /* ToeicAppTests */,
+				846C621A21204FC100EC6212 /* ToeicAppUITests */,
+				846C61F921204FC000EC6212 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		846C61F921204FC000EC6212 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				846C61F821204FC000EC6212 /* ToeicApp.app */,
+				846C620C21204FC100EC6212 /* ToeicAppTests.xctest */,
+				846C621721204FC100EC6212 /* ToeicAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		846C61FA21204FC000EC6212 /* ToeicApp */ = {
+			isa = PBXGroup;
+			children = (
+				846C61FB21204FC000EC6212 /* AppDelegate.swift */,
+				846C61FD21204FC000EC6212 /* ViewController.swift */,
+				846C61FF21204FC000EC6212 /* Main.storyboard */,
+				846C620221204FC000EC6212 /* Assets.xcassets */,
+				846C620421204FC000EC6212 /* LaunchScreen.storyboard */,
+				846C620721204FC000EC6212 /* Info.plist */,
+			);
+			path = ToeicApp;
+			sourceTree = "<group>";
+		};
+		846C620F21204FC100EC6212 /* ToeicAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				846C621021204FC100EC6212 /* ToeicAppTests.swift */,
+				846C621221204FC100EC6212 /* Info.plist */,
+			);
+			path = ToeicAppTests;
+			sourceTree = "<group>";
+		};
+		846C621A21204FC100EC6212 /* ToeicAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				846C621B21204FC100EC6212 /* ToeicAppUITests.swift */,
+				846C621D21204FC100EC6212 /* Info.plist */,
+			);
+			path = ToeicAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		846C61F721204FC000EC6212 /* ToeicApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846C622021204FC100EC6212 /* Build configuration list for PBXNativeTarget "ToeicApp" */;
+			buildPhases = (
+				846C61F421204FC000EC6212 /* Sources */,
+				846C61F521204FC000EC6212 /* Frameworks */,
+				846C61F621204FC000EC6212 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToeicApp;
+			productName = ToeicApp;
+			productReference = 846C61F821204FC000EC6212 /* ToeicApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		846C620B21204FC100EC6212 /* ToeicAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846C622321204FC100EC6212 /* Build configuration list for PBXNativeTarget "ToeicAppTests" */;
+			buildPhases = (
+				846C620821204FC100EC6212 /* Sources */,
+				846C620921204FC100EC6212 /* Frameworks */,
+				846C620A21204FC100EC6212 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846C620E21204FC100EC6212 /* PBXTargetDependency */,
+			);
+			name = ToeicAppTests;
+			productName = ToeicAppTests;
+			productReference = 846C620C21204FC100EC6212 /* ToeicAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		846C621621204FC100EC6212 /* ToeicAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846C622621204FC100EC6212 /* Build configuration list for PBXNativeTarget "ToeicAppUITests" */;
+			buildPhases = (
+				846C621321204FC100EC6212 /* Sources */,
+				846C621421204FC100EC6212 /* Frameworks */,
+				846C621521204FC100EC6212 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846C621921204FC100EC6212 /* PBXTargetDependency */,
+			);
+			name = ToeicAppUITests;
+			productName = ToeicAppUITests;
+			productReference = 846C621721204FC100EC6212 /* ToeicAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		846C61F021204FC000EC6212 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					846C61F721204FC000EC6212 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					846C620B21204FC100EC6212 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 846C61F721204FC000EC6212;
+					};
+					846C621621204FC100EC6212 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 846C61F721204FC000EC6212;
+					};
+				};
+			};
+			buildConfigurationList = 846C61F321204FC000EC6212 /* Build configuration list for PBXProject "ToeicApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 846C61EF21204FC000EC6212;
+			productRefGroup = 846C61F921204FC000EC6212 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				846C61F721204FC000EC6212 /* ToeicApp */,
+				846C620B21204FC100EC6212 /* ToeicAppTests */,
+				846C621621204FC100EC6212 /* ToeicAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		846C61F621204FC000EC6212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846C620621204FC000EC6212 /* LaunchScreen.storyboard in Resources */,
+				846C620321204FC000EC6212 /* Assets.xcassets in Resources */,
+				846C620121204FC000EC6212 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846C620A21204FC100EC6212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846C621521204FC100EC6212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		846C61F421204FC000EC6212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846C61FE21204FC000EC6212 /* ViewController.swift in Sources */,
+				846C61FC21204FC000EC6212 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846C620821204FC100EC6212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846C621121204FC100EC6212 /* ToeicAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846C621321204FC100EC6212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846C621C21204FC100EC6212 /* ToeicAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		846C620E21204FC100EC6212 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846C61F721204FC000EC6212 /* ToeicApp */;
+			targetProxy = 846C620D21204FC100EC6212 /* PBXContainerItemProxy */;
+		};
+		846C621921204FC100EC6212 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846C61F721204FC000EC6212 /* ToeicApp */;
+			targetProxy = 846C621821204FC100EC6212 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		846C61FF21204FC000EC6212 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846C620021204FC000EC6212 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		846C620421204FC000EC6212 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846C620521204FC000EC6212 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		846C621E21204FC100EC6212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		846C621F21204FC100EC6212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		846C622121204FC100EC6212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ToeicApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LeMy.ToeicApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		846C622221204FC100EC6212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ToeicApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LeMy.ToeicApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		846C622421204FC100EC6212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ToeicAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LeMy.ToeicAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToeicApp.app/ToeicApp";
+			};
+			name = Debug;
+		};
+		846C622521204FC100EC6212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ToeicAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LeMy.ToeicAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToeicApp.app/ToeicApp";
+			};
+			name = Release;
+		};
+		846C622721204FC100EC6212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ToeicAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LeMy.ToeicAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ToeicApp;
+			};
+			name = Debug;
+		};
+		846C622821204FC100EC6212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ToeicAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LeMy.ToeicAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ToeicApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		846C61F321204FC000EC6212 /* Build configuration list for PBXProject "ToeicApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846C621E21204FC100EC6212 /* Debug */,
+				846C621F21204FC100EC6212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846C622021204FC100EC6212 /* Build configuration list for PBXNativeTarget "ToeicApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846C622121204FC100EC6212 /* Debug */,
+				846C622221204FC100EC6212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846C622321204FC100EC6212 /* Build configuration list for PBXNativeTarget "ToeicAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846C622421204FC100EC6212 /* Debug */,
+				846C622521204FC100EC6212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846C622621204FC100EC6212 /* Build configuration list for PBXNativeTarget "ToeicAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846C622721204FC100EC6212 /* Debug */,
+				846C622821204FC100EC6212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 846C61F021204FC000EC6212 /* Project object */;
+}
