@@ -1,0 +1,6 @@
+framework module Pods_ToeicAppTests {
+  umbrella header "Pods-ToeicAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4mm-jT-Ocr">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Add Question View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="AddQuestionViewController" customModule="ToeicApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="enter your question" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="efb-QK-ckr">
+                                <rect key="frame" x="10" y="60" width="355" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="enter your question" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WId-e7-bEZ">
+                                <rect key="frame" x="10" y="120" width="355" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="SNc-bj-XiF"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="enter your question" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KkZ-V0-t5u">
+                                <rect key="frame" x="10" y="170" width="355" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="SZV-YS-fvV"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="enter your question" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5gH-Xg-EZ0">
+                                <rect key="frame" x="10" y="220" width="355" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="JAh-rK-g7v"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="enter your question" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6JL-Q3-fRA">
+                                <rect key="frame" x="10" y="270" width="355" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="fOB-Vr-0wN"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="gRr-rn-NgF"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="answer" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aID-zm-7uL">
+                                <rect key="frame" x="10" y="330" width="355" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="0VZ-QJ-gZt"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="uD4-6Y-DWg"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dYc-BK-fMP">
+                                <rect key="frame" x="98.5" y="395" width="177.5" height="40"/>
+                                <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Add"/>
+                                <connections>
+                                    <action selector="addQuestionBtnPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nnh-yx-szU"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WId-e7-bEZ" secondAttribute="trailing" constant="10" id="0JN-DK-FkT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aID-zm-7uL" secondAttribute="trailing" constant="10" id="3qV-fd-Txt"/>
+                            <constraint firstItem="aID-zm-7uL" firstAttribute="top" secondItem="6JL-Q3-fRA" secondAttribute="bottom" constant="20" id="409-IQ-ld4"/>
+                            <constraint firstItem="dYc-BK-fMP" firstAttribute="width" secondItem="aID-zm-7uL" secondAttribute="width" multiplier="1/2" id="A1Y-LM-VSz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6JL-Q3-fRA" secondAttribute="trailing" constant="10" id="AWx-ni-GKo"/>
+                            <constraint firstItem="dYc-BK-fMP" firstAttribute="height" secondItem="aID-zm-7uL" secondAttribute="height" id="DJC-Xc-XYS"/>
+                            <constraint firstItem="WId-e7-bEZ" firstAttribute="top" secondItem="efb-QK-ckr" secondAttribute="bottom" constant="30" id="EQL-Om-b3u"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5gH-Xg-EZ0" secondAttribute="trailing" constant="10" id="K17-2V-zvZ"/>
+                            <constraint firstItem="efb-QK-ckr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="WlH-ge-0AS"/>
+                            <constraint firstItem="KkZ-V0-t5u" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="Xw5-3O-P83"/>
+                            <constraint firstItem="dYc-BK-fMP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dk9-bL-UEk"/>
+                            <constraint firstItem="aID-zm-7uL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="f2W-nB-1s6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KkZ-V0-t5u" secondAttribute="trailing" constant="10" id="gL8-Bj-3zW"/>
+                            <constraint firstItem="6JL-Q3-fRA" firstAttribute="top" secondItem="5gH-Xg-EZ0" secondAttribute="bottom" constant="10" id="kV0-YF-r5s"/>
+                            <constraint firstItem="efb-QK-ckr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="lXB-KW-ems"/>
+                            <constraint firstItem="5gH-Xg-EZ0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="lsa-cb-tQI"/>
+                            <constraint firstItem="KkZ-V0-t5u" firstAttribute="top" secondItem="WId-e7-bEZ" secondAttribute="bottom" constant="10" id="pM5-8P-gcE"/>
+                            <constraint firstItem="6JL-Q3-fRA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="v5u-65-CHT"/>
+                            <constraint firstItem="dYc-BK-fMP" firstAttribute="top" secondItem="aID-zm-7uL" secondAttribute="bottom" constant="25" id="vv2-Ie-fX0"/>
+                            <constraint firstItem="WId-e7-bEZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="w0T-1g-wNK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="efb-QK-ckr" secondAttribute="trailing" constant="10" id="xxM-N7-Oyf"/>
+                            <constraint firstItem="5gH-Xg-EZ0" firstAttribute="top" secondItem="KkZ-V0-t5u" secondAttribute="bottom" constant="10" id="y5o-C8-2Ma"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="aTf" destination="WId-e7-bEZ" id="wWp-eZ-foy"/>
+                        <outlet property="answerTf" destination="aID-zm-7uL" id="lH9-rW-Nug"/>
+                        <outlet property="bTf" destination="KkZ-V0-t5u" id="qoy-a7-hCU"/>
+                        <outlet property="cTf" destination="5gH-Xg-EZ0" id="B68-TE-y5G"/>
+                        <outlet property="dTf" destination="6JL-Q3-fRA" id="fXt-DH-pFh"/>
+                        <outlet property="questionTf" destination="efb-QK-ckr" id="TNo-AK-gfp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--Test Collection View Controller-->
+        <scene sceneID="fJ8-4Y-KSV">
+            <objects>
+                <collectionViewController id="4mm-jT-Ocr" customClass="TestCollectionViewController" customModule="ToeicApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="eaR-Rq-uW1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="wkv-Wn-wEd">
+                            <size key="itemSize" width="374" height="629"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells/>
+                        <connections>
+                            <outlet property="dataSource" destination="4mm-jT-Ocr" id="yOL-dV-Ar7"/>
+                            <outlet property="delegate" destination="4mm-jT-Ocr" id="dwn-Xm-391"/>
+                        </connections>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qfc-eD-QNa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1559.2" y="42.728635682158924"/>
+        </scene>
+    </scenes>
+</document>

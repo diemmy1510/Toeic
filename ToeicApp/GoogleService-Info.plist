@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>752092444582-gp36hdjbf91l0hohd5q5h0jbcesctt01.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.752092444582-gp36hdjbf91l0hohd5q5h0jbcesctt01</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB7TFQmjxC5UbS8qPSAWni9QOo-qwMY970</string>
+	<key>GCM_SENDER_ID</key>
+	<string>752092444582</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>LeMy.ToeicApp</string>
+	<key>PROJECT_ID</key>
+	<string>toeic-fbe1b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>toeic-fbe1b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:752092444582:ios:d46c042e769849cf</string>
+	<key>DATABASE_URL</key>
+	<string>https://toeic-fbe1b.firebaseio.com</string>
+</dict>
+</plist>
